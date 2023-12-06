@@ -99,3 +99,11 @@ const (
 	// Dotted represents a dotted style.
 	Dotted LineStyle = "dotted"
 )
+
+type Strategy string
+
+const (
+	EmptyLineStrategy Strategy = "empty_line_strategy"
+	DashStrategy      Strategy = "dash_strategy"
+	AutoStrategy      Strategy = "auto_strategy"
+)

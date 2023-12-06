@@ -59,7 +59,8 @@ type Text struct {
 	// Size of the text.
 	Size float64
 	// Align of the text.
-	Align consts.Align
+	Align             consts.Align
+	BreakLineStrategy consts.Strategy
 	// Extrapolate define if the text will automatically add a new line when.
 	// text reach the right cell boundary.
 	Extrapolate bool
